@@ -1,0 +1,131 @@
+{
+  "mvis": {
+    "approach": "mvis",
+    "n_toys": 200,
+    "n_converged": 200,
+    "n_failed": 0,
+    "failure_rate": 0.0,
+    "obs_pearson_chi2": 39.16660179908565,
+    "obs_llr": 39.51704015196391,
+    "p_pearson": 0.0,
+    "p_pearson_unc": 0.0,
+    "p_llr": 0.0,
+    "p_llr_unc": 0.0,
+    "per_category": {
+      "mvis_baseline": {
+        "pearson_chi2": 23.446845983573045,
+        "llr": 22.94800900308867,
+        "nbins": 24,
+        "pearson_per_bin": 0.9769519159822102,
+        "llr_per_bin": 0.9561670417953613
+      },
+      "mvis_vbf": {
+        "pearson_chi2": 15.719755815512599,
+        "llr": 16.569031148875244,
+        "nbins": 19,
+        "pearson_per_bin": 0.8273555692375052,
+        "llr_per_bin": 0.8720542709934339
+      }
+    },
+    "toy_pearson_stats": {
+      "mean": 20.12927015059266,
+      "std": 4.2418953285871215,
+      "min": 10.2366938954977,
+      "max": 38.26904573984941,
+      "median": 19.902394505228237
+    },
+    "toy_llr_stats": {
+      "mean": 20.67519326680672,
+      "std": 4.36583632448397,
+      "min": 10.353094831626784,
+      "max": 38.587432689978414,
+      "median": 20.377450959943914
+    }
+  },
+  "nn_score": {
+    "approach": "nn_score",
+    "n_toys": 200,
+    "n_converged": 198,
+    "n_failed": 2,
+    "failure_rate": 0.01,
+    "obs_pearson_chi2": 33.11708579413361,
+    "obs_llr": 34.49979787596547,
+    "p_pearson": 0.0,
+    "p_pearson_unc": 0.0,
+    "p_llr": 0.0,
+    "p_llr_unc": 0.0,
+    "per_category": {
+      "nn_score_baseline": {
+        "pearson_chi2": 17.149671943894408,
+        "llr": 17.0556678240834,
+        "nbins": 20,
+        "pearson_per_bin": 0.8574835971947203,
+        "llr_per_bin": 0.85278339120417
+      },
+      "nn_score_vbf": {
+        "pearson_chi2": 15.967413850239199,
+        "llr": 17.444130051882073,
+        "nbins": 20,
+        "pearson_per_bin": 0.7983706925119599,
+        "llr_per_bin": 0.8722065025941037
+      }
+    },
+    "toy_pearson_stats": {
+      "mean": 17.836579062280904,
+      "std": 3.478293586283707,
+      "min": 10.202113413627114,
+      "max": 28.578885653442406,
+      "median": 17.474525746494862
+    },
+    "toy_llr_stats": {
+      "mean": 18.279094447779446,
+      "std": 3.5759837545873348,
+      "min": 10.405676760743304,
+      "max": 28.97917229667416,
+      "median": 17.94090130315941
+    }
+  },
+  "mcol": {
+    "approach": "mcol",
+    "n_toys": 200,
+    "n_converged": 200,
+    "n_failed": 0,
+    "failure_rate": 0.0,
+    "obs_pearson_chi2": 39.232402426491326,
+    "obs_llr": 39.27560961808247,
+    "p_pearson": 0.0,
+    "p_pearson_unc": 0.0,
+    "p_llr": 0.0,
+    "p_llr_unc": 0.0,
+    "per_category": {
+      "mcol_baseline": {
+        "pearson_chi2": 28.45785634619967,
+        "llr": 28.200326490606926,
+        "nbins": 24,
+        "pearson_per_bin": 1.1857440144249862,
+        "llr_per_bin": 1.1750136037752885
+      },
+      "mcol_vbf": {
+        "pearson_chi2": 10.77454608029166,
+        "llr": 11.075283127475533,
+        "nbins": 22,
+        "pearson_per_bin": 0.4897520945587118,
+        "llr_per_bin": 0.5034219603397969
+      }
+    },
+    "toy_pearson_stats": {
+      "mean": 20.81606340957712,
+      "std": 4.18839245550184,
+      "min": 12.206018703639955,
+      "max": 32.893287022616335,
+      "median": 20.55603664820908
+    },
+    "toy_llr_stats": {
+      "mean": 21.189913366034244,
+      "std": 4.274566623712391,
+      "min": 12.34677952817497,
+      "max": 34.05699683727542,
+      "median": 20.97551549815514
+    }
+  }
+}

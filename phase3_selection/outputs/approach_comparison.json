@@ -1,0 +1,22 @@
+[
+  {
+    "approach": "cut-based (m_vis template)",
+    "s_window": 11.549660473770265,
+    "b_window": 5503.492024225863,
+    "s_over_sqrtb": 0.15568617427414017,
+    "expected_significance": 0.8018329038369876
+  },
+  {
+    "approach": "NN discriminant",
+    "auc_test": 0.8250022278330067,
+    "s_over_sqrtb_high_score": 1.1971039869385272,
+    "expected_significance": 1.515174762652355
+  },
+  {
+    "approach": "collinear mass template",
+    "s_window": 37.52477961052011,
+    "b_window": 9232.834238617987,
+    "s_over_sqrtb": 0.3905266095116554,
+    "expected_significance": 0.6747360888706567
+  }
+]

@@ -1,0 +1,1358 @@
+{
+  "GluGluToHToTauTau": {
+    "name": "GluGluToHToTauTau",
+    "description": "ggH signal",
+    "is_mc": true,
+    "trees": [
+      "Events;1"
+    ],
+    "num_events": 476963,
+    "branches": {
+      "GenPart_eta": "float[]",
+      "GenPart_mass": "float[]",
+      "GenPart_pdgId": "int32_t[]",
+      "GenPart_phi": "float[]",
+      "GenPart_pt": "float[]",
+      "GenPart_status": "int32_t[]",
+      "HLT_IsoMu17_eta2p1_LooseIsoPFTau20": "bool",
+      "HLT_IsoMu24": "bool",
+      "HLT_IsoMu24_eta2p1": "bool",
+      "Jet_btag": "float[]",
+      "Jet_eta": "float[]",
+      "Jet_mass": "float[]",
+      "Jet_phi": "float[]",
+      "Jet_pt": "float[]",
+      "Jet_puId": "bool[]",
+      "MET_CovXX": "float",
+      "MET_CovXY": "float",
+      "MET_CovYY": "float",
+      "MET_phi": "float",
+      "MET_pt": "float",
+      "MET_significance": "float",
+      "MET_sumet": "float",
+      "Muon_charge": "int32_t[]",
+      "Muon_dxy": "float[]",
+      "Muon_dxyErr": "float[]",
+      "Muon_dz": "float[]",
+      "Muon_dzErr": "float[]",
+      "Muon_eta": "float[]",
+      "Muon_genPartIdx": "int32_t[]",
+      "Muon_jetIdx": "int32_t[]",
+      "Muon_mass": "float[]",
+      "Muon_pfRelIso03_all": "float[]",
+      "Muon_pfRelIso04_all": "float[]",
+      "Muon_phi": "float[]",
+      "Muon_pt": "float[]",
+      "Muon_softId": "bool[]",
+      "Muon_tightId": "bool[]",
+      "PV_npvs": "int32_t",
+      "PV_x": "float",
+      "PV_y": "float",
+      "PV_z": "float",
+      "Tau_charge": "int32_t[]",
+      "Tau_decayMode": "int32_t[]",
+      "Tau_eta": "float[]",
+      "Tau_genPartIdx": "int32_t[]",
+      "Tau_idAntiEleLoose": "bool[]",
+      "Tau_idAntiEleMedium": "bool[]",
+      "Tau_idAntiEleTight": "bool[]",
+      "Tau_idAntiMuLoose": "bool[]",
+      "Tau_idAntiMuMedium": "bool[]",
+      "Tau_idAntiMuTight": "bool[]",
+      "Tau_idDecayMode": "bool[]",
+      "Tau_idIsoLoose": "bool[]",
+      "Tau_idIsoMedium": "bool[]",
+      "Tau_idIsoRaw": "float[]",
+      "Tau_idIsoTight": "bool[]",
+      "Tau_idIsoVLoose": "bool[]",
+      "Tau_jetIdx": "int32_t[]",
+      "Tau_mass": "float[]",
+      "Tau_phi": "float[]",
+      "Tau_pt": "float[]",
+      "Tau_relIso_all": "float[]",
+      "event": "uint64_t",
+      "luminosityBlock": "uint32_t",
+      "nGenPart": "uint32_t",
+      "nJet": "uint32_t",
+      "nMuon": "uint32_t",
+      "nTau": "uint32_t",
+      "run": "int32_t"
+    },
+    "num_branches": 69,
+    "weight_branches": [],
+    "branch_PSWeight": {
+      "found": false
+    },
+    "branch_LHEPdfWeight": {
+      "found": false
+    },
+    "branch_LHEScaleWeight": {
+      "found": false
+    },
+    "branch_genWeight": {
+      "found": false
+    },
+    "branch_LHEWeight_originalXWGTUP": {
+      "found": false
+    },
+    "hlt_branches": [
+      "HLT_IsoMu24_eta2p1",
+      "HLT_IsoMu24",
+      "HLT_IsoMu17_eta2p1_LooseIsoPFTau20"
+    ],
+    "hlt_HLT_IsoMu24_eta2p1": {
+      "frac_true": 0.078,
+      "n_true": 78
+    },
+    "hlt_HLT_IsoMu24": {
+      "frac_true": 0.08,
+      "n_true": 80
+    },
+    "hlt_HLT_IsoMu17_eta2p1_LooseIsoPFTau20": {
+      "frac_true": 0.064,
+      "n_true": 64
+    },
+    "tau_decay_modes": [
+      -1,
+      0,
+      1,
+      2,
+      10
+    ],
+    "genpart_pdgids": [
+      -15,
+      -13,
+      -11,
+      11,
+      13,
+      15
+    ],
+    "genpart_n_unique_pdgids": 6,
+    "genpart_n_higgs": 0,
+    "genpart_n_taus": 6057,
+    "genpart_n_muons": 129,
+    "genpart_status_values": [
+      1,
+      2
+    ],
+    "mult_nMuon": {
+      "mean": 0.423,
+      "min": 0,
+      "max": 5
+    },
+    "mult_nTau": {
+      "mean": 6.709,
+      "min": 0,
+      "max": 33
+    },
+    "mult_nJet": {
+      "mean": 6.492,
+      "min": 0,
+      "max": 41
+    },
+    "mult_nGenPart": {
+      "mean": 7.69,
+      "min": 0,
+      "max": 39
+    },
+    "expected_events_xsec_lumi": 15344.662372800001,
+    "ngen_over_expected": 31.083316687727596
+  },
+  "VBF_HToTauTau": {
+    "name": "VBF_HToTauTau",
+    "description": "VBF signal",
+    "is_mc": true,
+    "trees": [
+      "Events;1"
+    ],
+    "num_events": 491653,
+    "branches": {
+      "GenPart_eta": "float[]",
+      "GenPart_mass": "float[]",
+      "GenPart_pdgId": "int32_t[]",
+      "GenPart_phi": "float[]",
+      "GenPart_pt": "float[]",
+      "GenPart_status": "int32_t[]",
+      "HLT_IsoMu17_eta2p1_LooseIsoPFTau20": "bool",
+      "HLT_IsoMu24": "bool",
+      "HLT_IsoMu24_eta2p1": "bool",
+      "Jet_btag": "float[]",
+      "Jet_eta": "float[]",
+      "Jet_mass": "float[]",
+      "Jet_phi": "float[]",
+      "Jet_pt": "float[]",
+      "Jet_puId": "bool[]",
+      "MET_CovXX": "float",
+      "MET_CovXY": "float",
+      "MET_CovYY": "float",
+      "MET_phi": "float",
+      "MET_pt": "float",
+      "MET_significance": "float",
+      "MET_sumet": "float",
+      "Muon_charge": "int32_t[]",
+      "Muon_dxy": "float[]",
+      "Muon_dxyErr": "float[]",
+      "Muon_dz": "float[]",
+      "Muon_dzErr": "float[]",
+      "Muon_eta": "float[]",
+      "Muon_genPartIdx": "int32_t[]",
+      "Muon_jetIdx": "int32_t[]",
+      "Muon_mass": "float[]",
+      "Muon_pfRelIso03_all": "float[]",
+      "Muon_pfRelIso04_all": "float[]",
+      "Muon_phi": "float[]",
+      "Muon_pt": "float[]",
+      "Muon_softId": "bool[]",
+      "Muon_tightId": "bool[]",
+      "PV_npvs": "int32_t",
+      "PV_x": "float",
+      "PV_y": "float",
+      "PV_z": "float",
+      "Tau_charge": "int32_t[]",
+      "Tau_decayMode": "int32_t[]",
+      "Tau_eta": "float[]",
+      "Tau_genPartIdx": "int32_t[]",
+      "Tau_idAntiEleLoose": "bool[]",
+      "Tau_idAntiEleMedium": "bool[]",
+      "Tau_idAntiEleTight": "bool[]",
+      "Tau_idAntiMuLoose": "bool[]",
+      "Tau_idAntiMuMedium": "bool[]",
+      "Tau_idAntiMuTight": "bool[]",
+      "Tau_idDecayMode": "bool[]",
+      "Tau_idIsoLoose": "bool[]",
+      "Tau_idIsoMedium": "bool[]",
+      "Tau_idIsoRaw": "float[]",
+      "Tau_idIsoTight": "bool[]",
+      "Tau_idIsoVLoose": "bool[]",
+      "Tau_jetIdx": "int32_t[]",
+      "Tau_mass": "float[]",
+      "Tau_phi": "float[]",
+      "Tau_pt": "float[]",
+      "Tau_relIso_all": "float[]",
+      "event": "uint64_t",
+      "luminosityBlock": "uint32_t",
+      "nGenPart": "uint32_t",
+      "nJet": "uint32_t",
+      "nMuon": "uint32_t",
+      "nTau": "uint32_t",
+      "run": "int32_t"
+    },
+    "num_branches": 69,
+    "weight_branches": [],
+    "branch_PSWeight": {
+      "found": false
+    },
+    "branch_LHEPdfWeight": {
+      "found": false
+    },
+    "branch_LHEScaleWeight": {
+      "found": false
+    },
+    "branch_genWeight": {
+      "found": false
+    },
+    "branch_LHEWeight_originalXWGTUP": {
+      "found": false
+    },
+    "hlt_branches": [
+      "HLT_IsoMu24_eta2p1",
+      "HLT_IsoMu24",
+      "HLT_IsoMu17_eta2p1_LooseIsoPFTau20"
+    ],
+    "hlt_HLT_IsoMu24_eta2p1": {
+      "frac_true": 0.093,
+      "n_true": 93
+    },
+    "hlt_HLT_IsoMu24": {
+      "frac_true": 0.094,
+      "n_true": 94
+    },
+    "hlt_HLT_IsoMu17_eta2p1_LooseIsoPFTau20": {
+      "frac_true": 0.09,
+      "n_true": 90
+    },
+    "tau_decay_modes": [
+      -1,
+      0,
+      1,
+      2,
+      10
+    ],
+    "genpart_pdgids": [
+      -15,
+      -13,
+      -11,
+      11,
+      13,
+      15
+    ],
+    "genpart_n_unique_pdgids": 6,
+    "genpart_n_higgs": 0,
+    "genpart_n_taus": 7343,
+    "genpart_n_muons": 246,
+    "genpart_status_values": [
+      1,
+      2
+    ],
+    "mult_nMuon": {
+      "mean": 0.495,
+      "min": 0,
+      "max": 8
+    },
+    "mult_nTau": {
+      "mean": 8.136,
+      "min": 0,
+      "max": 41
+    },
+    "mult_nJet": {
+      "mean": 7.719,
+      "min": 0,
+      "max": 50
+    },
+    "mult_nGenPart": {
+      "mean": 9.309,
+      "min": 0,
+      "max": 42
+    },
+    "expected_events_xsec_lumi": 1147.8008320000001,
+    "ngen_over_expected": 428.3434776252192
+  },
+  "DYJetsToLL": {
+    "name": "DYJetsToLL",
+    "description": "Drell-Yan",
+    "is_mc": true,
+    "trees": [
+      "Events;1"
+    ],
+    "num_events": 30458871,
+    "branches": {
+      "GenPart_eta": "float[]",
+      "GenPart_mass": "float[]",
+      "GenPart_pdgId": "int32_t[]",
+      "GenPart_phi": "float[]",
+      "GenPart_pt": "float[]",
+      "GenPart_status": "int32_t[]",
+      "HLT_IsoMu17_eta2p1_LooseIsoPFTau20": "bool",
+      "HLT_IsoMu24": "bool",
+      "HLT_IsoMu24_eta2p1": "bool",
+      "Jet_btag": "float[]",
+      "Jet_eta": "float[]",
+      "Jet_mass": "float[]",
+      "Jet_phi": "float[]",
+      "Jet_pt": "float[]",
+      "Jet_puId": "bool[]",
+      "MET_CovXX": "float",
+      "MET_CovXY": "float",
+      "MET_CovYY": "float",
+      "MET_phi": "float",
+      "MET_pt": "float",
+      "MET_significance": "float",
+      "MET_sumet": "float",
+      "Muon_charge": "int32_t[]",
+      "Muon_dxy": "float[]",
+      "Muon_dxyErr": "float[]",
+      "Muon_dz": "float[]",
+      "Muon_dzErr": "float[]",
+      "Muon_eta": "float[]",
+      "Muon_genPartIdx": "int32_t[]",
+      "Muon_jetIdx": "int32_t[]",
+      "Muon_mass": "float[]",
+      "Muon_pfRelIso03_all": "float[]",
+      "Muon_pfRelIso04_all": "float[]",
+      "Muon_phi": "float[]",
+      "Muon_pt": "float[]",
+      "Muon_softId": "bool[]",
+      "Muon_tightId": "bool[]",
+      "PV_npvs": "int32_t",
+      "PV_x": "float",
+      "PV_y": "float",
+      "PV_z": "float",
+      "Tau_charge": "int32_t[]",
+      "Tau_decayMode": "int32_t[]",
+      "Tau_eta": "float[]",
+      "Tau_genPartIdx": "int32_t[]",
+      "Tau_idAntiEleLoose": "bool[]",
+      "Tau_idAntiEleMedium": "bool[]",
+      "Tau_idAntiEleTight": "bool[]",
+      "Tau_idAntiMuLoose": "bool[]",
+      "Tau_idAntiMuMedium": "bool[]",
+      "Tau_idAntiMuTight": "bool[]",
+      "Tau_idDecayMode": "bool[]",
+      "Tau_idIsoLoose": "bool[]",
+      "Tau_idIsoMedium": "bool[]",
+      "Tau_idIsoRaw": "float[]",
+      "Tau_idIsoTight": "bool[]",
+      "Tau_idIsoVLoose": "bool[]",
+      "Tau_jetIdx": "int32_t[]",
+      "Tau_mass": "float[]",
+      "Tau_phi": "float[]",
+      "Tau_pt": "float[]",
+      "Tau_relIso_all": "float[]",
+      "event": "uint64_t",
+      "luminosityBlock": "uint32_t",
+      "nGenPart": "uint32_t",
+      "nJet": "uint32_t",
+      "nMuon": "uint32_t",
+      "nTau": "uint32_t",
+      "run": "int32_t"
+    },
+    "num_branches": 69,
+    "weight_branches": [],
+    "branch_PSWeight": {
+      "found": false
+    },
+    "branch_LHEPdfWeight": {
+      "found": false
+    },
+    "branch_LHEScaleWeight": {
+      "found": false
+    },
+    "branch_genWeight": {
+      "found": false
+    },
+    "branch_LHEWeight_originalXWGTUP": {
+      "found": false
+    },
+    "hlt_branches": [
+      "HLT_IsoMu24_eta2p1",
+      "HLT_IsoMu24",
+      "HLT_IsoMu17_eta2p1_LooseIsoPFTau20"
+    ],
+    "hlt_HLT_IsoMu24_eta2p1": {
+      "frac_true": 0.205,
+      "n_true": 205
+    },
+    "hlt_HLT_IsoMu24": {
+      "frac_true": 0.217,
+      "n_true": 217
+    },
+    "hlt_HLT_IsoMu17_eta2p1_LooseIsoPFTau20": {
+      "frac_true": 0.162,
+      "n_true": 162
+    },
+    "tau_decay_modes": [
+      -1,
+      0,
+      1,
+      2,
+      10
+    ],
+    "genpart_pdgids": [
+      -15,
+      -13,
+      -11,
+      11,
+      13,
+      15
+    ],
+    "genpart_n_unique_pdgids": 6,
+    "genpart_status_values": [
+      1,
+      2
+    ],
+    "mult_nMuon": {
+      "mean": 0.649,
+      "min": 0,
+      "max": 6
+    },
+    "mult_nTau": {
+      "mean": 3.411,
+      "min": 0,
+      "max": 25
+    },
+    "mult_nJet": {
+      "mean": 2.379,
+      "min": 0,
+      "max": 24
+    },
+    "mult_nGenPart": {
+      "mean": 4.712,
+      "min": 0,
+      "max": 27
+    },
+    "expected_events_xsec_lumi": 40176927.9,
+    "ngen_over_expected": 0.7581184672907756
+  },
+  "TTbar": {
+    "name": "TTbar",
+    "description": "ttbar",
+    "is_mc": true,
+    "trees": [
+      "Events;1"
+    ],
+    "num_events": 6423106,
+    "branches": {
+      "GenPart_eta": "float[]",
+      "GenPart_mass": "float[]",
+      "GenPart_pdgId": "int32_t[]",
+      "GenPart_phi": "float[]",
+      "GenPart_pt": "float[]",
+      "GenPart_status": "int32_t[]",
+      "HLT_IsoMu17_eta2p1_LooseIsoPFTau20": "bool",
+      "HLT_IsoMu24": "bool",
+      "HLT_IsoMu24_eta2p1": "bool",
+      "Jet_btag": "float[]",
+      "Jet_eta": "float[]",
+      "Jet_mass": "float[]",
+      "Jet_phi": "float[]",
+      "Jet_pt": "float[]",
+      "Jet_puId": "bool[]",
+      "MET_CovXX": "float",
+      "MET_CovXY": "float",
+      "MET_CovYY": "float",
+      "MET_phi": "float",
+      "MET_pt": "float",
+      "MET_significance": "float",
+      "MET_sumet": "float",
+      "Muon_charge": "int32_t[]",
+      "Muon_dxy": "float[]",
+      "Muon_dxyErr": "float[]",
+      "Muon_dz": "float[]",
+      "Muon_dzErr": "float[]",
+      "Muon_eta": "float[]",
+      "Muon_genPartIdx": "int32_t[]",
+      "Muon_jetIdx": "int32_t[]",
+      "Muon_mass": "float[]",
+      "Muon_pfRelIso03_all": "float[]",
+      "Muon_pfRelIso04_all": "float[]",
+      "Muon_phi": "float[]",
+      "Muon_pt": "float[]",
+      "Muon_softId": "bool[]",
+      "Muon_tightId": "bool[]",
+      "PV_npvs": "int32_t",
+      "PV_x": "float",
+      "PV_y": "float",
+      "PV_z": "float",
+      "Tau_charge": "int32_t[]",
+      "Tau_decayMode": "int32_t[]",
+      "Tau_eta": "float[]",
+      "Tau_genPartIdx": "int32_t[]",
+      "Tau_idAntiEleLoose": "bool[]",
+      "Tau_idAntiEleMedium": "bool[]",
+      "Tau_idAntiEleTight": "bool[]",
+      "Tau_idAntiMuLoose": "bool[]",
+      "Tau_idAntiMuMedium": "bool[]",
+      "Tau_idAntiMuTight": "bool[]",
+      "Tau_idDecayMode": "bool[]",
+      "Tau_idIsoLoose": "bool[]",
+      "Tau_idIsoMedium": "bool[]",
+      "Tau_idIsoRaw": "float[]",
+      "Tau_idIsoTight": "bool[]",
+      "Tau_idIsoVLoose": "bool[]",
+      "Tau_jetIdx": "int32_t[]",
+      "Tau_mass": "float[]",
+      "Tau_phi": "float[]",
+      "Tau_pt": "float[]",
+      "Tau_relIso_all": "float[]",
+      "event": "uint64_t",
+      "luminosityBlock": "uint32_t",
+      "nGenPart": "uint32_t",
+      "nJet": "uint32_t",
+      "nMuon": "uint32_t",
+      "nTau": "uint32_t",
+      "run": "int32_t"
+    },
+    "num_branches": 69,
+    "weight_branches": [],
+    "branch_PSWeight": {
+      "found": false
+    },
+    "branch_LHEPdfWeight": {
+      "found": false
+    },
+    "branch_LHEScaleWeight": {
+      "found": false
+    },
+    "branch_genWeight": {
+      "found": false
+    },
+    "branch_LHEWeight_originalXWGTUP": {
+      "found": false
+    },
+    "hlt_branches": [
+      "HLT_IsoMu24_eta2p1",
+      "HLT_IsoMu24",
+      "HLT_IsoMu17_eta2p1_LooseIsoPFTau20"
+    ],
+    "hlt_HLT_IsoMu24_eta2p1": {
+      "frac_true": 0.15,
+      "n_true": 150
+    },
+    "hlt_HLT_IsoMu24": {
+      "frac_true": 0.15,
+      "n_true": 150
+    },
+    "hlt_HLT_IsoMu17_eta2p1_LooseIsoPFTau20": {
+      "frac_true": 0.142,
+      "n_true": 142
+    },
+    "tau_decay_modes": [
+      -1,
+      0,
+      1,
+      2,
+      10
+    ],
+    "genpart_pdgids": [
+      -15,
+      -13,
+      -11,
+      11,
+      13,
+      15
+    ],
+    "genpart_n_unique_pdgids": 6,
+    "genpart_status_values": [
+      1,
+      2
+    ],
+    "mult_nMuon": {
+      "mean": 1.056,
+      "min": 0,
+      "max": 9
+    },
+    "mult_nTau": {
+      "mean": 8.547,
+      "min": 0,
+      "max": 37
+    },
+    "mult_nJet": {
+      "mean": 9.034,
+      "min": 1,
+      "max": 46
+    },
+    "mult_nGenPart": {
+      "mean": 9.983,
+      "min": 0,
+      "max": 42
+    },
+    "expected_events_xsec_lumi": 2900004.3000000003,
+    "ngen_over_expected": 2.21486085382701
+  },
+  "W1JetsToLNu": {
+    "name": "W1JetsToLNu",
+    "description": "W+1jet",
+    "is_mc": true,
+    "trees": [
+      "Events;1"
+    ],
+    "num_events": 29784800,
+    "branches": {
+      "GenPart_eta": "float[]",
+      "GenPart_mass": "float[]",
+      "GenPart_pdgId": "int32_t[]",
+      "GenPart_phi": "float[]",
+      "GenPart_pt": "float[]",
+      "GenPart_status": "int32_t[]",
+      "HLT_IsoMu17_eta2p1_LooseIsoPFTau20": "bool",
+      "HLT_IsoMu24": "bool",
+      "HLT_IsoMu24_eta2p1": "bool",
+      "Jet_btag": "float[]",
+      "Jet_eta": "float[]",
+      "Jet_mass": "float[]",
+      "Jet_phi": "float[]",
+      "Jet_pt": "float[]",
+      "Jet_puId": "bool[]",
+      "MET_CovXX": "float",
+      "MET_CovXY": "float",
+      "MET_CovYY": "float",
+      "MET_phi": "float",
+      "MET_pt": "float",
+      "MET_significance": "float",
+      "MET_sumet": "float",
+      "Muon_charge": "int32_t[]",
+      "Muon_dxy": "float[]",
+      "Muon_dxyErr": "float[]",
+      "Muon_dz": "float[]",
+      "Muon_dzErr": "float[]",
+      "Muon_eta": "float[]",
+      "Muon_genPartIdx": "int32_t[]",
+      "Muon_jetIdx": "int32_t[]",
+      "Muon_mass": "float[]",
+      "Muon_pfRelIso03_all": "float[]",
+      "Muon_pfRelIso04_all": "float[]",
+      "Muon_phi": "float[]",
+      "Muon_pt": "float[]",
+      "Muon_softId": "bool[]",
+      "Muon_tightId": "bool[]",
+      "PV_npvs": "int32_t",
+      "PV_x": "float",
+      "PV_y": "float",
+      "PV_z": "float",
+      "Tau_charge": "int32_t[]",
+      "Tau_decayMode": "int32_t[]",
+      "Tau_eta": "float[]",
+      "Tau_genPartIdx": "int32_t[]",
+      "Tau_idAntiEleLoose": "bool[]",
+      "Tau_idAntiEleMedium": "bool[]",
+      "Tau_idAntiEleTight": "bool[]",
+      "Tau_idAntiMuLoose": "bool[]",
+      "Tau_idAntiMuMedium": "bool[]",
+      "Tau_idAntiMuTight": "bool[]",
+      "Tau_idDecayMode": "bool[]",
+      "Tau_idIsoLoose": "bool[]",
+      "Tau_idIsoMedium": "bool[]",
+      "Tau_idIsoRaw": "float[]",
+      "Tau_idIsoTight": "bool[]",
+      "Tau_idIsoVLoose": "bool[]",
+      "Tau_jetIdx": "int32_t[]",
+      "Tau_mass": "float[]",
+      "Tau_phi": "float[]",
+      "Tau_pt": "float[]",
+      "Tau_relIso_all": "float[]",
+      "event": "uint64_t",
+      "luminosityBlock": "uint32_t",
+      "nGenPart": "uint32_t",
+      "nJet": "uint32_t",
+      "nMuon": "uint32_t",
+      "nTau": "uint32_t",
+      "run": "int32_t"
+    },
+    "num_branches": 69,
+    "weight_branches": [],
+    "branch_PSWeight": {
+      "found": false
+    },
+    "branch_LHEPdfWeight": {
+      "found": false
+    },
+    "branch_LHEScaleWeight": {
+      "found": false
+    },
+    "branch_genWeight": {
+      "found": false
+    },
+    "branch_LHEWeight_originalXWGTUP": {
+      "found": false
+    },
+    "hlt_branches": [
+      "HLT_IsoMu24_eta2p1",
+      "HLT_IsoMu24",
+      "HLT_IsoMu17_eta2p1_LooseIsoPFTau20"
+    ],
+    "hlt_HLT_IsoMu24_eta2p1": {
+      "frac_true": 0.157,
+      "n_true": 157
+    },
+    "hlt_HLT_IsoMu24": {
+      "frac_true": 0.166,
+      "n_true": 166
+    },
+    "hlt_HLT_IsoMu17_eta2p1_LooseIsoPFTau20": {
+      "frac_true": 0.043,
+      "n_true": 43
+    },
+    "tau_decay_modes": [
+      -1,
+      0,
+      1,
+      2,
+      10
+    ],
+    "genpart_pdgids": [
+      -15,
+      -13,
+      -11,
+      11,
+      13,
+      15
+    ],
+    "genpart_n_unique_pdgids": 6,
+    "genpart_status_values": [
+      1,
+      2
+    ],
+    "mult_nMuon": {
+      "mean": 0.404,
+      "min": 0,
+      "max": 4
+    },
+    "mult_nTau": {
+      "mean": 6.094,
+      "min": 0,
+      "max": 33
+    },
+    "mult_nJet": {
+      "mean": 5.812,
+      "min": 0,
+      "max": 43
+    },
+    "mult_nGenPart": {
+      "mean": 6.985,
+      "min": 0,
+      "max": 35
+    },
+    "expected_events_xsec_lumi": 73173220.39999999,
+    "ngen_over_expected": 0.40704508886149837
+  },
+  "W2JetsToLNu": {
+    "name": "W2JetsToLNu",
+    "description": "W+2jets",
+    "is_mc": true,
+    "trees": [
+      "Events;1"
+    ],
+    "num_events": 30693853,
+    "branches": {
+      "GenPart_eta": "float[]",
+      "GenPart_mass": "float[]",
+      "GenPart_pdgId": "int32_t[]",
+      "GenPart_phi": "float[]",
+      "GenPart_pt": "float[]",
+      "GenPart_status": "int32_t[]",
+      "HLT_IsoMu17_eta2p1_LooseIsoPFTau20": "bool",
+      "HLT_IsoMu24": "bool",
+      "HLT_IsoMu24_eta2p1": "bool",
+      "Jet_btag": "float[]",
+      "Jet_eta": "float[]",
+      "Jet_mass": "float[]",
+      "Jet_phi": "float[]",
+      "Jet_pt": "float[]",
+      "Jet_puId": "bool[]",
+      "MET_CovXX": "float",
+      "MET_CovXY": "float",
+      "MET_CovYY": "float",
+      "MET_phi": "float",
+      "MET_pt": "float",
+      "MET_significance": "float",
+      "MET_sumet": "float",
+      "Muon_charge": "int32_t[]",
+      "Muon_dxy": "float[]",
+      "Muon_dxyErr": "float[]",
+      "Muon_dz": "float[]",
+      "Muon_dzErr": "float[]",
+      "Muon_eta": "float[]",
+      "Muon_genPartIdx": "int32_t[]",
+      "Muon_jetIdx": "int32_t[]",
+      "Muon_mass": "float[]",
+      "Muon_pfRelIso03_all": "float[]",
+      "Muon_pfRelIso04_all": "float[]",
+      "Muon_phi": "float[]",
+      "Muon_pt": "float[]",
+      "Muon_softId": "bool[]",
+      "Muon_tightId": "bool[]",
+      "PV_npvs": "int32_t",
+      "PV_x": "float",
+      "PV_y": "float",
+      "PV_z": "float",
+      "Tau_charge": "int32_t[]",
+      "Tau_decayMode": "int32_t[]",
+      "Tau_eta": "float[]",
+      "Tau_genPartIdx": "int32_t[]",
+      "Tau_idAntiEleLoose": "bool[]",
+      "Tau_idAntiEleMedium": "bool[]",
+      "Tau_idAntiEleTight": "bool[]",
+      "Tau_idAntiMuLoose": "bool[]",
+      "Tau_idAntiMuMedium": "bool[]",
+      "Tau_idAntiMuTight": "bool[]",
+      "Tau_idDecayMode": "bool[]",
+      "Tau_idIsoLoose": "bool[]",
+      "Tau_idIsoMedium": "bool[]",
+      "Tau_idIsoRaw": "float[]",
+      "Tau_idIsoTight": "bool[]",
+      "Tau_idIsoVLoose": "bool[]",
+      "Tau_jetIdx": "int32_t[]",
+      "Tau_mass": "float[]",
+      "Tau_phi": "float[]",
+      "Tau_pt": "float[]",
+      "Tau_relIso_all": "float[]",
+      "event": "uint64_t",
+      "luminosityBlock": "uint32_t",
+      "nGenPart": "uint32_t",
+      "nJet": "uint32_t",
+      "nMuon": "uint32_t",
+      "nTau": "uint32_t",
+      "run": "int32_t"
+    },
+    "num_branches": 69,
+    "weight_branches": [],
+    "branch_PSWeight": {
+      "found": false
+    },
+    "branch_LHEPdfWeight": {
+      "found": false
+    },
+    "branch_LHEScaleWeight": {
+      "found": false
+    },
+    "branch_genWeight": {
+      "found": false
+    },
+    "branch_LHEWeight_originalXWGTUP": {
+      "found": false
+    },
+    "hlt_branches": [
+      "HLT_IsoMu24_eta2p1",
+      "HLT_IsoMu24",
+      "HLT_IsoMu17_eta2p1_LooseIsoPFTau20"
+    ],
+    "hlt_HLT_IsoMu24_eta2p1": {
+      "frac_true": 0.123,
+      "n_true": 123
+    },
+    "hlt_HLT_IsoMu24": {
+      "frac_true": 0.133,
+      "n_true": 133
+    },
+    "hlt_HLT_IsoMu17_eta2p1_LooseIsoPFTau20": {
+      "frac_true": 0.072,
+      "n_true": 72
+    },
+    "tau_decay_modes": [
+      -1,
+      0,
+      1,
+      2,
+      10
+    ],
+    "genpart_pdgids": [
+      -15,
+      -13,
+      -11,
+      11,
+      13,
+      15
+    ],
+    "genpart_n_unique_pdgids": 6,
+    "genpart_status_values": [
+      1,
+      2
+    ],
+    "mult_nMuon": {
+      "mean": 0.377,
+      "min": 0,
+      "max": 5
+    },
+    "mult_nTau": {
+      "mean": 6.119,
+      "min": 0,
+      "max": 33
+    },
+    "mult_nJet": {
+      "mean": 5.898,
+      "min": 0,
+      "max": 42
+    },
+    "mult_nGenPart": {
+      "mean": 7.062,
+      "min": 0,
+      "max": 34
+    },
+    "expected_events_xsec_lumi": 23390386.599999998,
+    "ngen_over_expected": 1.3122422268984644
+  },
+  "W3JetsToLNu": {
+    "name": "W3JetsToLNu",
+    "description": "W+3jets",
+    "is_mc": true,
+    "trees": [
+      "Events;1"
+    ],
+    "num_events": 15241144,
+    "branches": {
+      "GenPart_eta": "float[]",
+      "GenPart_mass": "float[]",
+      "GenPart_pdgId": "int32_t[]",
+      "GenPart_phi": "float[]",
+      "GenPart_pt": "float[]",
+      "GenPart_status": "int32_t[]",
+      "HLT_IsoMu17_eta2p1_LooseIsoPFTau20": "bool",
+      "HLT_IsoMu24": "bool",
+      "HLT_IsoMu24_eta2p1": "bool",
+      "Jet_btag": "float[]",
+      "Jet_eta": "float[]",
+      "Jet_mass": "float[]",
+      "Jet_phi": "float[]",
+      "Jet_pt": "float[]",
+      "Jet_puId": "bool[]",
+      "MET_CovXX": "float",
+      "MET_CovXY": "float",
+      "MET_CovYY": "float",
+      "MET_phi": "float",
+      "MET_pt": "float",
+      "MET_significance": "float",
+      "MET_sumet": "float",
+      "Muon_charge": "int32_t[]",
+      "Muon_dxy": "float[]",
+      "Muon_dxyErr": "float[]",
+      "Muon_dz": "float[]",
+      "Muon_dzErr": "float[]",
+      "Muon_eta": "float[]",
+      "Muon_genPartIdx": "int32_t[]",
+      "Muon_jetIdx": "int32_t[]",
+      "Muon_mass": "float[]",
+      "Muon_pfRelIso03_all": "float[]",
+      "Muon_pfRelIso04_all": "float[]",
+      "Muon_phi": "float[]",
+      "Muon_pt": "float[]",
+      "Muon_softId": "bool[]",
+      "Muon_tightId": "bool[]",
+      "PV_npvs": "int32_t",
+      "PV_x": "float",
+      "PV_y": "float",
+      "PV_z": "float",
+      "Tau_charge": "int32_t[]",
+      "Tau_decayMode": "int32_t[]",
+      "Tau_eta": "float[]",
+      "Tau_genPartIdx": "int32_t[]",
+      "Tau_idAntiEleLoose": "bool[]",
+      "Tau_idAntiEleMedium": "bool[]",
+      "Tau_idAntiEleTight": "bool[]",
+      "Tau_idAntiMuLoose": "bool[]",
+      "Tau_idAntiMuMedium": "bool[]",
+      "Tau_idAntiMuTight": "bool[]",
+      "Tau_idDecayMode": "bool[]",
+      "Tau_idIsoLoose": "bool[]",
+      "Tau_idIsoMedium": "bool[]",
+      "Tau_idIsoRaw": "float[]",
+      "Tau_idIsoTight": "bool[]",
+      "Tau_idIsoVLoose": "bool[]",
+      "Tau_jetIdx": "int32_t[]",
+      "Tau_mass": "float[]",
+      "Tau_phi": "float[]",
+      "Tau_pt": "float[]",
+      "Tau_relIso_all": "float[]",
+      "event": "uint64_t",
+      "luminosityBlock": "uint32_t",
+      "nGenPart": "uint32_t",
+      "nJet": "uint32_t",
+      "nMuon": "uint32_t",
+      "nTau": "uint32_t",
+      "run": "int32_t"
+    },
+    "num_branches": 69,
+    "weight_branches": [],
+    "branch_PSWeight": {
+      "found": false
+    },
+    "branch_LHEPdfWeight": {
+      "found": false
+    },
+    "branch_LHEScaleWeight": {
+      "found": false
+    },
+    "branch_genWeight": {
+      "found": false
+    },
+    "branch_LHEWeight_originalXWGTUP": {
+      "found": false
+    },
+    "hlt_branches": [
+      "HLT_IsoMu24_eta2p1",
+      "HLT_IsoMu24",
+      "HLT_IsoMu17_eta2p1_LooseIsoPFTau20"
+    ],
+    "hlt_HLT_IsoMu24_eta2p1": {
+      "frac_true": 0.142,
+      "n_true": 142
+    },
+    "hlt_HLT_IsoMu24": {
+      "frac_true": 0.146,
+      "n_true": 146
+    },
+    "hlt_HLT_IsoMu17_eta2p1_LooseIsoPFTau20": {
+      "frac_true": 0.098,
+      "n_true": 98
+    },
+    "tau_decay_modes": [
+      -1,
+      0,
+      1,
+      2,
+      10
+    ],
+    "genpart_pdgids": [
+      -15,
+      -13,
+      -11,
+      11,
+      13,
+      15
+    ],
+    "genpart_n_unique_pdgids": 6,
+    "genpart_status_values": [
+      1,
+      2
+    ],
+    "mult_nMuon": {
+      "mean": 0.458,
+      "min": 0,
+      "max": 5
+    },
+    "mult_nTau": {
+      "mean": 6.845,
+      "min": 0,
+      "max": 33
+    },
+    "mult_nJet": {
+      "mean": 7.101,
+      "min": 0,
+      "max": 41
+    },
+    "mult_nGenPart": {
+      "mean": 7.962,
+      "min": 0,
+      "max": 37
+    },
+    "expected_events_xsec_lumi": 7023537.5,
+    "ngen_over_expected": 2.170009628338996
+  },
+  "Run2012B_TauPlusX": {
+    "name": "Run2012B_TauPlusX",
+    "description": "Data Run2012B",
+    "is_mc": false,
+    "trees": [
+      "Events;1"
+    ],
+    "num_events": 35647508,
+    "branches": {
+      "HLT_IsoMu17_eta2p1_LooseIsoPFTau20": "bool",
+      "HLT_IsoMu24": "bool",
+      "HLT_IsoMu24_eta2p1": "bool",
+      "Jet_btag": "float[]",
+      "Jet_eta": "float[]",
+      "Jet_mass": "float[]",
+      "Jet_phi": "float[]",
+      "Jet_pt": "float[]",
+      "Jet_puId": "bool[]",
+      "MET_CovXX": "float",
+      "MET_CovXY": "float",
+      "MET_CovYY": "float",
+      "MET_phi": "float",
+      "MET_pt": "float",
+      "MET_significance": "float",
+      "MET_sumet": "float",
+      "Muon_charge": "int32_t[]",
+      "Muon_dxy": "float[]",
+      "Muon_dxyErr": "float[]",
+      "Muon_dz": "float[]",
+      "Muon_dzErr": "float[]",
+      "Muon_eta": "float[]",
+      "Muon_genPartIdx": "int32_t[]",
+      "Muon_jetIdx": "int32_t[]",
+      "Muon_mass": "float[]",
+      "Muon_pfRelIso03_all": "float[]",
+      "Muon_pfRelIso04_all": "float[]",
+      "Muon_phi": "float[]",
+      "Muon_pt": "float[]",
+      "Muon_softId": "bool[]",
+      "Muon_tightId": "bool[]",
+      "PV_npvs": "int32_t",
+      "PV_x": "float",
+      "PV_y": "float",
+      "PV_z": "float",
+      "Tau_charge": "int32_t[]",
+      "Tau_decayMode": "int32_t[]",
+      "Tau_eta": "float[]",
+      "Tau_genPartIdx": "int32_t[]",
+      "Tau_idAntiEleLoose": "bool[]",
+      "Tau_idAntiEleMedium": "bool[]",
+      "Tau_idAntiEleTight": "bool[]",
+      "Tau_idAntiMuLoose": "bool[]",
+      "Tau_idAntiMuMedium": "bool[]",
+      "Tau_idAntiMuTight": "bool[]",
+      "Tau_idDecayMode": "bool[]",
+      "Tau_idIsoLoose": "bool[]",
+      "Tau_idIsoMedium": "bool[]",
+      "Tau_idIsoRaw": "float[]",
+      "Tau_idIsoTight": "bool[]",
+      "Tau_idIsoVLoose": "bool[]",
+      "Tau_jetIdx": "int32_t[]",
+      "Tau_mass": "float[]",
+      "Tau_phi": "float[]",
+      "Tau_pt": "float[]",
+      "Tau_relIso_all": "float[]",
+      "event": "uint64_t",
+      "luminosityBlock": "uint32_t",
+      "nJet": "uint32_t",
+      "nMuon": "uint32_t",
+      "nTau": "uint32_t",
+      "run": "int32_t"
+    },
+    "num_branches": 62,
+    "weight_branches": [],
+    "branch_PSWeight": {
+      "found": false
+    },
+    "branch_LHEPdfWeight": {
+      "found": false
+    },
+    "branch_LHEScaleWeight": {
+      "found": false
+    },
+    "branch_genWeight": {
+      "found": false
+    },
+    "branch_LHEWeight_originalXWGTUP": {
+      "found": false
+    },
+    "hlt_branches": [
+      "HLT_IsoMu24_eta2p1",
+      "HLT_IsoMu24",
+      "HLT_IsoMu17_eta2p1_LooseIsoPFTau20"
+    ],
+    "hlt_HLT_IsoMu24_eta2p1": {
+      "frac_true": 0.214,
+      "n_true": 214
+    },
+    "hlt_HLT_IsoMu24": {
+      "frac_true": 0.214,
+      "n_true": 214
+    },
+    "hlt_HLT_IsoMu17_eta2p1_LooseIsoPFTau20": {
+      "frac_true": 0.282,
+      "n_true": 282
+    },
+    "tau_decay_modes": [
+      -1,
+      0,
+      1,
+      2,
+      10
+    ],
+    "mult_nMuon": {
+      "mean": 0.825,
+      "min": 0,
+      "max": 5
+    },
+    "mult_nTau": {
+      "mean": 4.142,
+      "min": 0,
+      "max": 30
+    },
+    "mult_nJet": {
+      "mean": 3.241,
+      "min": 0,
+      "max": 24
+    }
+  },
+  "Run2012C_TauPlusX": {
+    "name": "Run2012C_TauPlusX",
+    "description": "Data Run2012C",
+    "is_mc": false,
+    "trees": [
+      "Events;1"
+    ],
+    "num_events": 51303171,
+    "branches": {
+      "HLT_IsoMu17_eta2p1_LooseIsoPFTau20": "bool",
+      "HLT_IsoMu24": "bool",
+      "HLT_IsoMu24_eta2p1": "bool",
+      "Jet_btag": "float[]",
+      "Jet_eta": "float[]",
+      "Jet_mass": "float[]",
+      "Jet_phi": "float[]",
+      "Jet_pt": "float[]",
+      "Jet_puId": "bool[]",
+      "MET_CovXX": "float",
+      "MET_CovXY": "float",
+      "MET_CovYY": "float",
+      "MET_phi": "float",
+      "MET_pt": "float",
+      "MET_significance": "float",
+      "MET_sumet": "float",
+      "Muon_charge": "int32_t[]",
+      "Muon_dxy": "float[]",
+      "Muon_dxyErr": "float[]",
+      "Muon_dz": "float[]",
+      "Muon_dzErr": "float[]",
+      "Muon_eta": "float[]",
+      "Muon_genPartIdx": "int32_t[]",
+      "Muon_jetIdx": "int32_t[]",
+      "Muon_mass": "float[]",
+      "Muon_pfRelIso03_all": "float[]",
+      "Muon_pfRelIso04_all": "float[]",
+      "Muon_phi": "float[]",
+      "Muon_pt": "float[]",
+      "Muon_softId": "bool[]",
+      "Muon_tightId": "bool[]",
+      "PV_npvs": "int32_t",
+      "PV_x": "float",
+      "PV_y": "float",
+      "PV_z": "float",
+      "Tau_charge": "int32_t[]",
+      "Tau_decayMode": "int32_t[]",
+      "Tau_eta": "float[]",
+      "Tau_genPartIdx": "int32_t[]",
+      "Tau_idAntiEleLoose": "bool[]",
+      "Tau_idAntiEleMedium": "bool[]",
+      "Tau_idAntiEleTight": "bool[]",
+      "Tau_idAntiMuLoose": "bool[]",
+      "Tau_idAntiMuMedium": "bool[]",
+      "Tau_idAntiMuTight": "bool[]",
+      "Tau_idDecayMode": "bool[]",
+      "Tau_idIsoLoose": "bool[]",
+      "Tau_idIsoMedium": "bool[]",
+      "Tau_idIsoRaw": "float[]",
+      "Tau_idIsoTight": "bool[]",
+      "Tau_idIsoVLoose": "bool[]",
+      "Tau_jetIdx": "int32_t[]",
+      "Tau_mass": "float[]",
+      "Tau_phi": "float[]",
+      "Tau_pt": "float[]",
+      "Tau_relIso_all": "float[]",
+      "event": "uint64_t",
+      "luminosityBlock": "uint32_t",
+      "nJet": "uint32_t",
+      "nMuon": "uint32_t",
+      "nTau": "uint32_t",
+      "run": "int32_t"
+    },
+    "num_branches": 62,
+    "weight_branches": [],
+    "branch_PSWeight": {
+      "found": false
+    },
+    "branch_LHEPdfWeight": {
+      "found": false
+    },
+    "branch_LHEScaleWeight": {
+      "found": false
+    },
+    "branch_genWeight": {
+      "found": false
+    },
+    "branch_LHEWeight_originalXWGTUP": {
+      "found": false
+    },
+    "hlt_branches": [
+      "HLT_IsoMu24_eta2p1",
+      "HLT_IsoMu24",
+      "HLT_IsoMu17_eta2p1_LooseIsoPFTau20"
+    ],
+    "hlt_HLT_IsoMu24_eta2p1": {
+      "frac_true": 0.201,
+      "n_true": 201
+    },
+    "hlt_HLT_IsoMu24": {
+      "frac_true": 0.202,
+      "n_true": 202
+    },
+    "hlt_HLT_IsoMu17_eta2p1_LooseIsoPFTau20": {
+      "frac_true": 0.261,
+      "n_true": 261
+    },
+    "tau_decay_modes": [
+      -1,
+      0,
+      1,
+      2,
+      10
+    ],
+    "mult_nMuon": {
+      "mean": 0.857,
+      "min": 0,
+      "max": 6
+    },
+    "mult_nTau": {
+      "mean": 6.619,
+      "min": 0,
+      "max": 29
+    },
+    "mult_nJet": {
+      "mean": 5.016,
+      "min": 0,
+      "max": 32
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "approach": "NN-regressed MET (approach c)",
+  "status": "DROPPED",
+  "reason": "Gen-level neutrinos not available in reduced NanoAOD GenPart. Only PDG IDs {-15, -13, -11, 11, 13, 15} found. No training target for MET regression.",
+  "d13_criterion": ">15% MET resolution improvement on MC test set",
+  "d13_evaluation": "Cannot evaluate - no gen-level neutrino truth",
+  "gen_pdg_ids_found": [
+    -15,
+    -13,
+    -11,
+    11,
+    13,
+    15
+  ],
+  "gen_pdg_ids_missing": [
+    12,
+    -12,
+    14,
+    -14,
+    16,
+    -16
+  ]
+}

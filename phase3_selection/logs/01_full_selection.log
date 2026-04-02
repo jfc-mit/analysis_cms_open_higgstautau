@@ -1,0 +1,130 @@
+✨ Pixi task (py): python phase3_selection/src/01_full_selection.py
+[03/24/26 04:19:02] INFO     ========================== 01_full_selection.py:479
+                             ==========================                         
+                             ========                                           
+                    INFO     Phase 3 Step 1: Full       01_full_selection.py:480
+                             Selection with VBF and                             
+                             Control Regions                                    
+                    INFO     ========================== 01_full_selection.py:481
+                             ==========================                         
+                             ========                                           
+                    INFO                                01_full_selection.py:488
+                             Processing                                         
+                             GluGluToHToTauTau (ggH)...                         
+[03/24/26 04:19:05] INFO       GluGluToHToTauTau:       01_full_selection.py:463
+                             476963 events in 2.8 s                             
+                             (172 kHz)                                          
+                    INFO       Cutflow (raw):           01_full_selection.py:494
+                             total=476963,                                      
+                             trigger=33520,                                     
+                             good_muon=25522,                                   
+                             good_tau=8230,                                     
+                             pair_found=8230,                                   
+                             os_pair=8069, dr_cut=8069,                         
+                             mt_cut=5397,                                       
+                             iso_tight=4603                                     
+                    INFO       OS SR: 4603 raw (148.1   01_full_selection.py:498
+                             weighted)                                          
+                    INFO                                01_full_selection.py:488
+                             Processing VBF_HToTauTau                           
+                             (VBF)...                                           
+[03/24/26 04:19:09] INFO       VBF_HToTauTau: 491653    01_full_selection.py:463
+                             events in 3.9 s (125 kHz)                          
+                    INFO       Cutflow (raw):           01_full_selection.py:494
+                             total=491653,                                      
+                             trigger=49109,                                     
+                             good_muon=39150,                                   
+                             good_tau=10964,                                    
+                             pair_found=10964,                                  
+                             os_pair=10556,                                     
+                             dr_cut=10556, mt_cut=7067,                         
+                             iso_tight=6255                                     
+                    INFO       OS SR: 6255 raw (14.6    01_full_selection.py:498
+                             weighted)                                          
+                    INFO                                01_full_selection.py:488
+                             Processing DYJetsToLL                              
+                             (DY)...                                            
+[03/24/26 04:23:54] INFO       DYJetsToLL: 30458871     01_full_selection.py:463
+                             events in 285.1 s (107                             
+                             kHz)                                               
+                    INFO       Cutflow (raw):           01_full_selection.py:494
+                             total=30458871,                                    
+                             trigger=4753620,                                   
+                             good_muon=4479322,                                 
+                             good_tau=77699,                                    
+                             pair_found=77699,                                  
+                             os_pair=63279,                                     
+                             dr_cut=63279,                                      
+                             mt_cut=39795,                                      
+                             iso_tight=34468                                    
+                    INFO       OS SR: 34468 raw         01_full_selection.py:498
+                             (45465.2 weighted)                                 
+                    INFO                                01_full_selection.py:488
+                             Processing TTbar                                   
+                             (TTbar)...                                         
+[03/24/26 04:24:55] INFO       TTbar: 6423106 events in 01_full_selection.py:463
+                             61.2 s (105 kHz)                                   
+[03/24/26 04:24:56] INFO       Cutflow (raw):           01_full_selection.py:494
+                             total=6423106,                                     
+                             trigger=872546,                                    
+                             good_muon=746718,                                  
+                             good_tau=53489,                                    
+                             pair_found=53489,                                  
+                             os_pair=40556,                                     
+                             dr_cut=40556, mt_cut=6210,                         
+                             iso_tight=5670                                     
+                    INFO       OS SR: 5670 raw (2560.0  01_full_selection.py:498
+                             weighted)                                          
+                    INFO                                01_full_selection.py:488
+                             Processing W1JetsToLNu                             
+                             (W1J)...                                           
+[03/24/26 04:29:26] INFO       W1JetsToLNu: 29784800    01_full_selection.py:463
+                             events in 269.8 s (110                             
+                             kHz)                                               
+                    INFO       Cutflow (raw):           01_full_selection.py:494
+                             total=29784800,                                    
+                             trigger=1251689,                                   
+                             good_muon=1044071,                                 
+                             good_tau=41505,                                    
+                             pair_found=41505,                                  
+                             os_pair=31314,                                     
+                             dr_cut=31314, mt_cut=3383,                         
+                             iso_tight=2951                                     
+                    INFO       OS SR: 2951 raw (7249.8  01_full_selection.py:498
+                             weighted)                                          
+                    INFO                                01_full_selection.py:488
+                             Processing W2JetsToLNu                             
+                             (W2J)...                                           
+[03/24/26 04:35:30] INFO       W2JetsToLNu: 30693853    01_full_selection.py:463
+                             events in 364.0 s (84 kHz)                         
+                    INFO       Cutflow (raw):           01_full_selection.py:494
+                             total=30693853,                                    
+                             trigger=2358002,                                   
+                             good_muon=1969422,                                 
+                             good_tau=73686,                                    
+                             pair_found=73686,                                  
+                             os_pair=53476,                                     
+                             dr_cut=53476, mt_cut=5920,                         
+                             iso_tight=5194                                     
+                    INFO       OS SR: 5194 raw (3958.1  01_full_selection.py:498
+                             weighted)                                          
+                    INFO                                01_full_selection.py:488
+                             Processing W3JetsToLNu                             
+                             (W3J)...                                           
+[03/24/26 04:40:05] INFO       W3JetsToLNu: 15241144    01_full_selection.py:463
+                             events in 275.0 s (55 kHz)                         
+                    INFO       Cutflow (raw):           01_full_selection.py:494
+                             total=15241144,                                    
+                             trigger=1516331,                                   
+                             good_muon=1260827,                                 
+                             good_tau=42740,                                    
+                             pair_found=42740,                                  
+                             os_pair=29928,                                     
+                             dr_cut=29928, mt_cut=3765,                         
+                             iso_tight=3319                                     
+                    INFO       OS SR: 3319 raw (1529.5  01_full_selection.py:498
+                             weighted)                                          
+                    INFO                                01_full_selection.py:488
+                             Processing                                         
+                             Run2012B_TauPlusX                                  
+                             (DataB)...                                         

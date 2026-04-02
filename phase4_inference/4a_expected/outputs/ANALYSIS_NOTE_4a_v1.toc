@@ -1,0 +1,86 @@
+\contentsline {section}{Change Log}{3}{section*.2}%
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
+\contentsline {section}{\numberline {2}Data Samples}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Collision data}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Monte Carlo simulation}{5}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Signal sample content}{6}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Missing processes}{6}{subsubsection.2.2.2}%
+\contentsline {section}{\numberline {3}Event Selection}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Trigger}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Object definitions}{6}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Muon selection}{6}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Hadronic tau selection}{6}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Jet selection}{7}{subsubsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.3}Pair selection and signal region definition}{7}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Tau identification working point optimization}{7}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Control region definitions}{9}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Cutflow}{9}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Event categorization}{10}{subsection.3.7}%
+\contentsline {subsubsection}{\numberline {3.7.1}VBF category}{10}{subsubsection.3.7.1}%
+\contentsline {subsubsection}{\numberline {3.7.2}Baseline category}{10}{subsubsection.3.7.2}%
+\contentsline {subsubsection}{\numberline {3.7.3}Category yields}{11}{subsubsection.3.7.3}%
+\contentsline {section}{\numberline {4}Background Estimation}{11}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Drell-Yan decomposition}{11}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}W+jets normalization}{12}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Validation in the intermediate-\(m_\mathrm {T}\) region}{12}{subsubsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.3}QCD multijet estimation}{12}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}OS/SS ratio measurement}{12}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}QCD yield in the signal region}{13}{subsubsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.4}Corrected yield summary}{13}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Discriminant Variables}{14}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Visible di-tau mass}{14}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Neural network discriminant}{15}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Architecture and training}{15}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Input features}{15}{subsubsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.3}Training sample and performance}{16}{subsubsection.5.2.3}%
+\contentsline {subsubsection}{\numberline {5.2.4}Overtraining validation}{16}{subsubsection.5.2.4}%
+\contentsline {subsubsection}{\numberline {5.2.5}NN input variable quality gate}{17}{subsubsection.5.2.5}%
+\contentsline {subsubsection}{\numberline {5.2.6}NN score distributions}{17}{subsubsection.5.2.6}%
+\contentsline {subsubsection}{\numberline {5.2.7}Alternative classifier: BDT comparison}{19}{subsubsection.5.2.7}%
+\contentsline {subsection}{\numberline {5.3}Collinear approximation mass}{21}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Physical solution fractions}{21}{subsubsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.4}Approach comparison}{23}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Kinematic Distributions}{24}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Baseline category distributions}{24}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}VBF category distributions}{27}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Variable separation power}{29}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Statistical Method}{30}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Profile likelihood framework}{30}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Nuisance parameter treatment}{31}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}CLs method for upper limits}{31}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Systematic Uncertainties}{31}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Luminosity}{31}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}\(Z\to \mittau \mittau \) normalization}{31}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}\(t\bar {t}\) normalization}{32}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}\(W\)+jets normalization}{32}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}QCD normalization}{32}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}Signal cross-section theory uncertainty}{32}{subsection.8.6}%
+\contentsline {subsubsection}{\numberline {8.6.1}ggH scale variations}{32}{subsubsection.8.6.1}%
+\contentsline {subsubsection}{\numberline {8.6.2}VBF scale variations}{32}{subsubsection.8.6.2}%
+\contentsline {subsubsection}{\numberline {8.6.3}PDF and \(\mitalpha _s\) uncertainties}{32}{subsubsection.8.6.3}%
+\contentsline {subsubsection}{\numberline {8.6.4}Branching ratio uncertainty}{32}{subsubsection.8.6.4}%
+\contentsline {subsection}{\numberline {8.7}Trigger efficiency}{33}{subsection.8.7}%
+\contentsline {subsection}{\numberline {8.8}Tau identification efficiency}{33}{subsection.8.8}%
+\contentsline {subsection}{\numberline {8.9}Muon identification and isolation}{33}{subsection.8.9}%
+\contentsline {subsection}{\numberline {8.10}b-tagging efficiency}{33}{subsection.8.10}%
+\contentsline {subsection}{\numberline {8.11}Missing backgrounds}{33}{subsection.8.11}%
+\contentsline {subsection}{\numberline {8.12}Tau energy scale}{33}{subsection.8.12}%
+\contentsline {subsection}{\numberline {8.13}Muon energy scale}{34}{subsection.8.13}%
+\contentsline {subsection}{\numberline {8.14}Jet energy scale}{34}{subsection.8.14}%
+\contentsline {subsection}{\numberline {8.15}MET unclustered energy}{35}{subsection.8.15}%
+\contentsline {subsection}{\numberline {8.16}MC statistical uncertainty}{36}{subsection.8.16}%
+\contentsline {subsection}{\numberline {8.17}Systematic completeness table}{36}{subsection.8.17}%
+\contentsline {subsection}{\numberline {8.18}Impact ranking}{37}{subsection.8.18}%
+\contentsline {subsection}{\numberline {8.19}Systematic uncertainty summary}{38}{subsection.8.19}%
+\contentsline {section}{\numberline {9}Expected Results}{39}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Pre-fit templates}{39}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Asimov fit results}{42}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}CLs limit scan}{43}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Comparison to reference analyses}{43}{subsection.9.4}%
+\contentsline {section}{\numberline {10}Validation}{44}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Signal injection test}{44}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Nuisance parameter pulls}{45}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Goodness of fit}{46}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Validation summary}{47}{subsection.10.4}%
+\contentsline {section}{\numberline {11}Conclusions}{48}{section.11}%
+\contentsline {section}{References}{50}{section*.87}%

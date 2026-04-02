@@ -1,0 +1,36 @@
+{
+  "auc_train": 0.8426182836199871,
+  "auc_val": 0.8324857859468173,
+  "auc_test": 0.8250022278330067,
+  "ks_sig": 0.02751225609132863,
+  "p_sig": 0.12666601866975205,
+  "ks_bkg": 0.00768896229033833,
+  "p_bkg": 0.6863526672023008,
+  "n_train": 31230,
+  "n_val": 15615,
+  "n_test": 15615,
+  "n_iter": 30,
+  "features": [
+    "mu_pt",
+    "mu_eta",
+    "tau_pt",
+    "tau_eta",
+    "met_pt",
+    "met_significance",
+    "mvis",
+    "mt",
+    "delta_r",
+    "delta_phi_mutau",
+    "njets",
+    "lead_jet_pt",
+    "lead_jet_eta",
+    "nbjets"
+  ],
+  "hidden_layers": [
+    64,
+    64,
+    32
+  ],
+  "alpha": 0.001,
+  "seed": 42
+}

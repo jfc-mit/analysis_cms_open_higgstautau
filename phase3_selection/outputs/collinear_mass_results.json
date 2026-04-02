@@ -1,0 +1,65 @@
+{
+  "GluGluToHToTauTau": {
+    "n_total": 4603,
+    "n_physical": 2499,
+    "frac_unphysical": 0.4570932000868998,
+    "m_col_mean_physical": 370.5822448730469,
+    "m_col_std_physical": 2046.0584716796875
+  },
+  "VBF_HToTauTau": {
+    "n_total": 6255,
+    "n_physical": 3776,
+    "frac_unphysical": 0.3963229416466827,
+    "m_col_mean_physical": 202.6536865234375,
+    "m_col_std_physical": 813.34765625
+  },
+  "DYJetsToLL": {
+    "n_total": 34468,
+    "n_physical": 16963,
+    "frac_unphysical": 0.5078623650922595,
+    "m_col_mean_physical": 704.8047485351562,
+    "m_col_std_physical": 7588.99658203125
+  },
+  "TTbar": {
+    "n_total": 5670,
+    "n_physical": 2552,
+    "frac_unphysical": 0.5499118165784833,
+    "m_col_mean_physical": 262.7756042480469,
+    "m_col_std_physical": 555.9234008789062
+  },
+  "W1JetsToLNu": {
+    "n_total": 2951,
+    "n_physical": 889,
+    "frac_unphysical": 0.6987461877329719,
+    "m_col_mean_physical": 1717.7935791015625,
+    "m_col_std_physical": 22812.2421875
+  },
+  "W2JetsToLNu": {
+    "n_total": 5194,
+    "n_physical": 2055,
+    "frac_unphysical": 0.6043511744320369,
+    "m_col_mean_physical": 423.2085266113281,
+    "m_col_std_physical": 2563.48291015625
+  },
+  "W3JetsToLNu": {
+    "n_total": 3319,
+    "n_physical": 1363,
+    "frac_unphysical": 0.5893341367881892,
+    "m_col_mean_physical": 255.9472198486328,
+    "m_col_std_physical": 690.2359008789062
+  },
+  "Run2012B_TauPlusX": {
+    "n_total": 26236,
+    "n_physical": 11666,
+    "frac_unphysical": 0.5553438024089038,
+    "m_col_mean_physical": 2471.822265625,
+    "m_col_std_physical": 158285.9375
+  },
+  "Run2012C_TauPlusX": {
+    "n_total": 41752,
+    "n_physical": 18805,
+    "frac_unphysical": 0.5496024142556045,
+    "m_col_mean_physical": 741.4053955078125,
+    "m_col_std_physical": 15372.1630859375
+  }
+}

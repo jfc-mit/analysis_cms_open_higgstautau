@@ -1,0 +1,204 @@
+{
+  "raw": {
+    "GluGluToHToTauTau": {
+      "total": 476963,
+      "trigger": 33520,
+      "good_muon": 25522,
+      "good_tau": 8230,
+      "pair_found": 8230,
+      "os_pair": 8069,
+      "dr_cut": 8069,
+      "mt_cut": 5397,
+      "iso_tight": 4603
+    },
+    "VBF_HToTauTau": {
+      "total": 491653,
+      "trigger": 49109,
+      "good_muon": 39150,
+      "good_tau": 10964,
+      "pair_found": 10964,
+      "os_pair": 10556,
+      "dr_cut": 10556,
+      "mt_cut": 7067,
+      "iso_tight": 6255
+    },
+    "DYJetsToLL": {
+      "total": 30458871,
+      "trigger": 4753620,
+      "good_muon": 4479322,
+      "good_tau": 77699,
+      "pair_found": 77699,
+      "os_pair": 63298,
+      "dr_cut": 63279,
+      "mt_cut": 39795,
+      "iso_tight": 34468
+    },
+    "TTbar": {
+      "total": 6423106,
+      "trigger": 872546,
+      "good_muon": 746718,
+      "good_tau": 53489,
+      "pair_found": 53489,
+      "os_pair": 40610,
+      "dr_cut": 40556,
+      "mt_cut": 6210,
+      "iso_tight": 5670
+    },
+    "W1JetsToLNu": {
+      "total": 29784800,
+      "trigger": 1251689,
+      "good_muon": 1044071,
+      "good_tau": 41505,
+      "pair_found": 41505,
+      "os_pair": 31357,
+      "dr_cut": 31314,
+      "mt_cut": 3383,
+      "iso_tight": 2951
+    },
+    "W2JetsToLNu": {
+      "total": 30693853,
+      "trigger": 2358002,
+      "good_muon": 1969422,
+      "good_tau": 73686,
+      "pair_found": 73686,
+      "os_pair": 53550,
+      "dr_cut": 53476,
+      "mt_cut": 5920,
+      "iso_tight": 5194
+    },
+    "W3JetsToLNu": {
+      "total": 15241144,
+      "trigger": 1516331,
+      "good_muon": 1260827,
+      "good_tau": 42740,
+      "pair_found": 42740,
+      "os_pair": 29967,
+      "dr_cut": 29928,
+      "mt_cut": 3765,
+      "iso_tight": 3319
+    },
+    "Run2012B_TauPlusX": {
+      "total": 35647508,
+      "trigger": 10038076,
+      "good_muon": 5303043,
+      "good_tau": 142072,
+      "pair_found": 142072,
+      "os_pair": 99198,
+      "dr_cut": 99109,
+      "mt_cut": 31961,
+      "iso_tight": 26236
+    },
+    "Run2012C_TauPlusX": {
+      "total": 51303171,
+      "trigger": 13901050,
+      "good_muon": 7917579,
+      "good_tau": 224078,
+      "pair_found": 224078,
+      "os_pair": 156388,
+      "dr_cut": 156267,
+      "mt_cut": 51020,
+      "iso_tight": 41752
+    }
+  },
+  "weighted": {
+    "GluGluToHToTauTau": {
+      "total": 15344.662372800001,
+      "trigger": 1078.391998407122,
+      "good_muon": 821.0835496225109,
+      "good_tau": 264.7722597521066,
+      "pair_found": 264.7722597521066,
+      "os_pair": 259.59263231345665,
+      "dr_cut": 259.59263231345665,
+      "mt_cut": 173.63011979126603,
+      "iso_tight": 148.0858701869923
+    },
+    "VBF_HToTauTau": {
+      "total": 1147.8008320000001,
+      "trigger": 114.64864662411905,
+      "good_muon": 91.39861360105604,
+      "good_tau": 25.596280958415797,
+      "pair_found": 25.596280958415797,
+      "os_pair": 24.64377433391437,
+      "dr_cut": 24.64377433391437,
+      "mt_cut": 16.498441949391136,
+      "iso_tight": 14.602767000628493
+    },
+    "DYJetsToLL": {
+      "total": 40176927.90000006,
+      "trigger": 6270286.512064022,
+      "good_muon": 5908472.347346161,
+      "good_tau": 102489.25907011126,
+      "pair_found": 102489.25907011126,
+      "os_pair": 83493.54715787723,
+      "dr_cut": 83468.48511174625,
+      "mt_cut": 52491.796093837474,
+      "iso_tight": 45465.18979174243
+    },
+    "TTbar": {
+      "total": 2900004.3000000003,
+      "trigger": 393950.7073287908,
+      "good_muon": 337139.91500177636,
+      "good_tau": 24150.0498361229,
+      "pair_found": 24150.0498361229,
+      "os_pair": 18335.23759735555,
+      "dr_cut": 18310.856833251702,
+      "mt_cut": 2803.787871942329,
+      "iso_tight": 2559.980230903865
+    },
+    "W1JetsToLNu": {
+      "total": 73173220.4,
+      "trigger": 3075062.2824143725,
+      "good_muon": 2565000.852658014,
+      "good_tau": 101966.59076784132,
+      "pair_found": 101966.59076784132,
+      "os_pair": 77035.69176502107,
+      "dr_cut": 76930.05236246675,
+      "mt_cut": 8311.118577704063,
+      "iso_tight": 7249.811091576916
+    },
+    "W2JetsToLNu": {
+      "total": 23390386.59999999,
+      "trigger": 1796925.8660218772,
+      "good_muon": 1500806.7562760923,
+      "good_tau": 56152.74260313945,
+      "pair_found": 56152.74260313945,
+      "os_pair": 40808.0146350476,
+      "dr_cut": 40751.62260735398,
+      "mt_cut": 4511.3622154898585,
+      "iso_tight": 3958.1107005497156
+    },
+    "W3JetsToLNu": {
+      "total": 7023537.499999997,
+      "trigger": 698766.9456382344,
+      "good_muon": 581023.6892658779,
+      "good_tau": 19695.765144007557,
+      "pair_found": 19695.765144007557,
+      "os_pair": 13809.616145776197,
+      "dr_cut": 13791.643875289152,
+      "mt_cut": 1735.0153431724025,
+      "iso_tight": 1529.4863011923514
+    },
+    "Run2012B_TauPlusX": {
+      "total": 35647508.0,
+      "trigger": 10038076.0,
+      "good_muon": 5303043.0,
+      "good_tau": 142072.0,
+      "pair_found": 142072.0,
+      "os_pair": 99198.0,
+      "dr_cut": 99109.0,
+      "mt_cut": 31961.0,
+      "iso_tight": 26236.0
+    },
+    "Run2012C_TauPlusX": {
+      "total": 51303171.0,
+      "trigger": 13901050.0,
+      "good_muon": 7917579.0,
+      "good_tau": 224078.0,
+      "pair_found": 224078.0,
+      "os_pair": 156388.0,
+      "dr_cut": 156267.0,
+      "mt_cut": 51020.0,
+      "iso_tight": 41752.0
+    }
+  }
+}
